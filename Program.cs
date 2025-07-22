@@ -89,7 +89,7 @@ class Program
 
         foreach (var dealer in dealerList)
         {
-            writer.WriteLine($";" +  // WorkspaceOrganisationReference = blank
+            writer.WriteLine($";" + // WorkspaceOrganisationReference = blank
                              $"{dealer.Name};" +
                              $"{dealer.AddressLine1};" +
                              $"{dealer.AddressLine2};" +
@@ -97,8 +97,8 @@ class Program
                              $"{dealer.CityTown};" +
                              $"{dealer.County};" +
                              $"{dealer.Postcode};" +
-                             $"Dealer;" +                // Type
-                             $"Mazda;" +                 // Franchise
+                             $"Dealer;" + // Type
+                             $"Mazda;" + // Franchise
                              $"{dealer.IsActive};" +
                              $"{dealer.PhoneNumber};" +
                              $"{dealer.ExternalReferences};" +
